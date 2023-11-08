@@ -1,0 +1,28 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+     {
+        "item":"alexscaves:amber"
+     },
+     {
+        "amount": 1000,
+        "fluid":"create:honey"
+     }
+  ],
+  "results":[
+     {
+        "item":"alexscaves:amber",
+        "count":2
+     }
+  ]
+}
